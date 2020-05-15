@@ -9,6 +9,7 @@ import React from "react"
 import { createGlobalStyle } from "styled-components"
 import { styles } from "../utils"
 import Navbar from "./Navigation/Navbar"
+import Footer from "./Navigation/Footer"
 
 const Layout = ({ children }) => {
   return (
@@ -16,6 +17,7 @@ const Layout = ({ children }) => {
       <GlobalStyle />
       <Navbar />
       {children}
+      <Footer />
     </>
   )
 }
@@ -31,6 +33,6 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: 'Maven Pro', sans-serif;
     color: ${styles.colors.mainBlack};
-    background: ${styles.colors.mainWhite};
+    background: ${styles.colors.mainGrey};
   }
 `
