@@ -7,7 +7,6 @@ import Projects from "../components/Home/Projects"
 import QuickInfo from "../components/Home/QuickInfo"
 import img from "../images/home-image.jpg"
 
-
 const IndexPage = () => {
   return (
     <Layout>

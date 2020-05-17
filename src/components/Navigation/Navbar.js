@@ -104,7 +104,7 @@ const NavWrapper = styled.nav`
     ${styles.transition1};
   }
   .links-open {
-    height: 176px;
+    height: 132px;
   }
   .links-closed {
     height: 0px;
