@@ -14,7 +14,7 @@ const IndexPage = () => {
       <Hero home={true} img={img}>
         <Banner
           title="welcome"
-          info="This is my blog/portfolio. Have a look around and let me know what you think in the Contact section."
+          info="This is my portfolio. Have a look around and let me know what you think in the Contact section."
         >
           <AniLink swipe to="/contact" className="btn-header">
             contact
