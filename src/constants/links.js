@@ -1,7 +1,7 @@
 export default [
   {
     path: '/',
-    text: 'projects',
+    text: 'about',
   },
   {
     path: '/music',

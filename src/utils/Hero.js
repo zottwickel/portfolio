@@ -10,7 +10,7 @@ const Hero = ({ img, children, home }) => {
 }
 
 const HeroWrapper = styled.header`
-  min-height: ${props => (props.home ? "100vh" : "60vh")};
+  min-height: ${props => (props.home ? "calc(100vh - 102px)" : "60vh")};
   background: url(${props => props.img}) center/cover fixed no-repeat;
   display: flex;
   justify-content: center;

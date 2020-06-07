@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { Hero, Banner } from "../utils"
+import Skills from "../components/Home/Skills"
 import Projects from "../components/Home/Projects"
 import QuickInfo from "../components/Home/QuickInfo"
 import img from "../images/home-image.jpg"
@@ -21,6 +22,7 @@ const IndexPage = () => {
           </AniLink>
         </Banner>
       </Hero>
+      <Skills />
       <Projects />
       <QuickInfo />
     </Layout>

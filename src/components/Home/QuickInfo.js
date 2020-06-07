@@ -8,7 +8,7 @@ const QuickInfo = () => {
       <InfoWrapper>
         <h1 className="info-banner">About Me</h1>
         <p className="text">
-          <img className="image" src={require('../../images/scott.jpg')} alt="Scott with a soprano sax" />Hello! My name is Scott and I love to program web pages. My hobbies
+          <img className="image" src={require('../../images/headshot.jpg')} alt="Scott with a soprano sax" />Hello! My name is Scott and I love to program web pages. My hobbies
           include riding my bike and playing saxophone. I have been interested
           in web application development since 2017. My journey started with
           <a
@@ -65,6 +65,8 @@ const InfoWrapper = styled.div`
   }
   .image {
     float: left;
+    height: 200px;
+    margin-right: 2rem;
   }
   @media (min-width: 768px) {
     margin: -3rem auto 0 auto;
