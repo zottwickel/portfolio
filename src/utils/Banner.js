@@ -15,7 +15,7 @@ const Banner = ({ title, info, children }) => {
 const StyledBanner = styled.div`
   text-align: center;
   color: ${styles.colors.mainWhite};
-  background: rgb(112, 112, 112, 0.5);
+  background: rgba(112, 112, 112, 0.5);
   border-radius: 5px;
   .title {
     font-size: 3.3rem;
