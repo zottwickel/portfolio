@@ -33,16 +33,8 @@ const Skills = () => {
             <img className="skill-image" src={require("../../images/jquery.png")} alt="html/css logo" />
           </div>
           <div className="skill">
-            <h2 className="skill-title">JSON</h2>
-            <img className="skill-image" src={require("../../images/json.png")} alt="html/css logo" />
-          </div>
-          <div className="skill">
             <h2 className="skill-title">Ruby</h2>
             <img className="skill-image" src={require("../../images/ruby.png")} alt="html/css logo" />
-          </div>
-          <div className="skill">
-            <h2 className="skill-title">Ruby on Rails</h2>
-            <img className="skill-image" src={require("../../images/ror.png")} alt="html/css logo" />
           </div>
           <div className="skill">
             <h2 className="skill-title">VS Code</h2>
