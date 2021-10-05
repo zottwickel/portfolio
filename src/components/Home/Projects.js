@@ -38,7 +38,7 @@ const Projects = () => {
   return (
     <Section>
       <ProjectWrapper>
-        {/* <h1 className="projects-banner">Notable Projects</h1>
+        <h1 className="projects-banner">Notable Projects</h1>
         {data.edges.map(({ node }) => {
           return (
             <div key={node.contentful_id} className="project">
@@ -70,7 +70,7 @@ const Projects = () => {
               </a>
             </div>
           )
-        })} */}
+        })}
       </ProjectWrapper>
     </Section>
   )
